@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+body{
+    background-color: #0e1a27;
+}
+
+.he-img{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-transform: capitalize;
+    padding-left:10px;
+}
+.menu{
+    padding: 10px;
+    background-color: #0e1a27;
+    width:75px;
+    height: 100vh;
+    position: relative;
+    color: white;
+    transition: .5s;
+    overflow: hidden;
+    
+}
+ul{
+    list-style: none;
+   
+}
+img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius:50% ;
+}
+
+a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    transition: .5s;
+   
+ 
+}
+a:hover{
+    background-color: red
+}
+.log{
+position: absolute;
+bottom: 0;
+width: 90%;
+
+}
+
+
+.parent{
+    display: flex;
+
+}
+.dashboard{
+    width: 100%;
+    margin: 10px;
+}
+.head{
+    background-color: #0074fd;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+
+}
+
+.boxes{
+ 
+   display: flex;
+   gap: 15px;
+   flex-shrink: 0;
+   flex-wrap: wrap;
+   
+
+}
+.box{
+    background-color: #3a3a3a;
+    width: 300px;
+    border-radius:10px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    flex-grow: 1;
+}
+
+i{
+    font-size: 30px;
+}
+.text p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 10px
+}
+
+td{
+    background-color: #16293d;
+    border-radius:8px ;
+    padding: 5px;
+}
+
+th{
+    background-color: #0074fd;
+    border-radius: 8px;
+    padding: 5px;
+    text-transform: capitalize;
+}
+.green{
+    background-color: green;
+
+
+}
+
+.gold{
+    background-color: goldenrod;
+}
+
+.menu:hover{
+    width: 260px;
+}
